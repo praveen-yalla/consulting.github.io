@@ -1,0 +1,162 @@
+@font-face {
+    font-family: themefont;
+    src: url(../fonts/segoeui.ttf);
+}
+
+@font-face {
+    font-family: themefontbold;
+    src: url(../fonts/segoeuib.ttf);
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: themefont;
+    background-size: cover;
+}
+
+.gutters {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default {
+    background: rgba(0, 46, 91, 0.7);
+}
+
+.nav>li>a {
+    padding: 30px;
+    font-size: 15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    /*background: rgba(0, 0, 0, 0.17);*/
+    background-color: rgba(231, 231, 231, 0.53);
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: #fff !important;
+    line-height: 50px;
+}
+
+.heading {
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #002e5b;
+    /*font-weight: bold;*/
+    font-family: themefontbold;
+    margin: 50px 0;
+    padding-bottom: 15px;
+    display: inline-block;
+    border-bottom: 5px solid #fde428;
+}
+
+.section-page {
+    padding: 20px 0;
+    background: #f2f2f2 !important;
+}
+
+.section-page p {
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.about-us .abt-details h3 {
+    font-family: themefontbold;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #002e5b;
+}
+
+.about-us .abt-details p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.parallelax {
+    height: 400px;
+}
+
+.parallelax.paraimg1 {
+    background: url(../images/parallalex/para1.jpg);
+}
+
+.indus-details h3 {
+    margin: 0 0 10px 0;
+    text-align: left;
+    color: #002e5b;
+    font-size: 18px;
+    font-family: themefontbold;
+}
+
+.indus-details p {
+    color: #696767;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.industry {
+    padding: 15px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.industry:hover {
+    background: #fff;
+}
+
+.service-details h3 {
+    text-align: left;
+    color: #002e5b;
+    font-size: 24px;
+    font-family: themefontbold;
+}
+
+.tag {
+    padding: 20px 0;
+    background: #fde428;
+    color: #0c0c0c;
+}
+
+.tag p {
+    font-size: 40px;
+}
+
+.contact-us {
+    padding: 20px 0;
+    background: #002e5b;
+}
+
+.contact-us .heading {
+    color: #fff;
+}
+
+.contact-us p {
+    color: #c7c7c7;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.contact-us h2 {
+    margin-bottom: 20px;
+    color: #fde428;
+    font-size: 25px;
+}
+
+.contact-us h1 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
